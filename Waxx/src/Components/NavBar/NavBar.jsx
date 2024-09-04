@@ -1,12 +1,13 @@
 import './NavBar.css'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (
         <div className="nav">
           <div className="nav-logo">Waxx</div>
           <ul className="nav-menu">
-            <li>Home</li>
-            <li className='nav-contact'>Your Profile</li>
+            <li> <Link to="/" /> Home</li>
+            <li className='nav-contact'><Link to="/profile" />Your Profile</li>
           </ul>
         </div>
       )
