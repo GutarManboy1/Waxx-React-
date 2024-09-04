@@ -7,6 +7,7 @@
     font-size: 110px;
     font-weight: 500;
     line-height: 130px;
+    margin-top: -10px;
 }
 .hero-explore{
     display: flex;
@@ -29,12 +30,14 @@
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 .hero-dots{
     display: flex;
     align-items: center;
     gap: 23px;
     list-style: none;
+    cursor: pointer;
 }
 .hero-dot{
     width: 15px;
@@ -50,6 +53,7 @@
     display: flex;
     align-items: center;
     gap: 30px;
+    margin-top: -20px;
 }
 .hero-play p{
     color: #fff;
