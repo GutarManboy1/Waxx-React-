@@ -4,7 +4,6 @@
     align-items: center;
     margin: 40px 120px;
     color: #ffffff;
-    cursor: pointer;
 }
 .nav-logo{
     font-family: 'Sono' ;
@@ -17,6 +16,7 @@
     list-style: none;
     font-size: 18px;
     gap: 90px;
+    cursor: pointer;
 }
 .nav-contact{
     border-radius: 50px;
