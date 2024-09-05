@@ -6,7 +6,7 @@ const NavBar = () => {
         <div className="nav">
           <div className="nav-logo">Waxx</div>
           <ul className="nav-menu">
-            <li> <Link to="/" /> Home</li>
+            <li> <Link to="/home" /> Home</li>
             <li className='nav-contact'><Link to="/profile" />Your Profile</li>
           </ul>
         </div>
