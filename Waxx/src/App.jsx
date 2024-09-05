@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Components/Home/Home";
-import Profile from "./Components/Profile/Profile";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import {Home, Profile} from './Pages'
 import Background from "./Components/Background/Background";
 import NavBar from "./Components/NavBar/NavBar";
 import Hero from "./Components/Hero/Hero";
@@ -28,6 +27,7 @@ const App = () => {
     <BrowserRouter>
       <NavBar />
       <Routes>
+        <Route path="/" element={<Navigate to="/Home" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
