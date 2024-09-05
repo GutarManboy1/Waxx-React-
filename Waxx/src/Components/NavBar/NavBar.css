@@ -17,6 +17,7 @@
     font-size: 18px;
     gap: 90px;
     cursor: pointer;
+    color: #ffffff;
 }
 .nav-contact{
     border-radius: 50px;
@@ -24,4 +25,5 @@
     background: #ffffff;
     color: #262626;
     cursor: pointer;
+    text-decoration: none;
 }

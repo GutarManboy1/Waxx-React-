@@ -1,4 +1,5 @@
 import './Home.css'
+import '../NavBar/NavBar'
 
 const Home = () => {
   return (
