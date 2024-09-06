@@ -1,4 +1,3 @@
-import Main from './Main'
-import Profile from './Profile'
 
-export{Main, Profile};
+export {default as Main} from './Main';
+export {default as Profile} from './Profile';
