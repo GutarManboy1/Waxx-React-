@@ -1,4 +1,4 @@
-import Home from './Home'
+import Main from './Main'
 import Profile from './Profile'
 
-export{Home, Profile};
+export{Main, Profile};
