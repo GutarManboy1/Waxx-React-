@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import {Home, Profile} from './Pages'
+import { BrowserRouter, Routes, Route, Navigate, Link } from "react-router-dom";
+import { Main, Profile } from "./Pages";
 import Background from "./Components/Background/Background";
 import NavBar from "./Components/NavBar/NavBar";
 import Hero from "./Components/Hero/Hero";
@@ -28,8 +28,8 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<Navigate to="/Home" />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/Main" element={<Main />} />
+        <Route path="/Profile" element={<Profile />} />
       </Routes>
       <div>
         <Background playStatus={playStatus} heroCount={heroCount} />
