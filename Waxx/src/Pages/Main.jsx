@@ -5,7 +5,8 @@ import "../Components/NavBar/NavBar";
 const Main = () => {
   return (
     <div>
-      {/* <h1>Your Shops</h1> */}
+      <h1>Your Shops</h1>
+      console.log()
     </div>
   );
 };

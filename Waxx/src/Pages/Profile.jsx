@@ -1,5 +1,5 @@
-import React from 'react'
-import '../Components/Profile/Profile.css'
+import React from 'react';
+import '../Components/Profile/Profile.css';
 
 const Profile = () => {
   return (
@@ -9,4 +9,4 @@ const Profile = () => {
   )
 }
 
-export default Profile
+export default Profile;
