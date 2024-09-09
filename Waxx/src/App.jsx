@@ -27,9 +27,9 @@ const App = () => {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Navigate to="/Home" />} />
-        <Route path="/Main" element={<Main />} />
-        <Route path="/Profile" element={<Profile />} />
+        <Route path="/app" element={<Navigate to="App" />} />
+        <Route path="/main" element={<Main />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
       <div>
         <Background playStatus={playStatus} heroCount={heroCount} />
