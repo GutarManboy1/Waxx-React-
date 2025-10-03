@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route, Navigate, Link } from "react-router-dom";
-import { Main, Profile } from "./Pages";
 import Background from "./Components/Background/Background";
 import NavBar from "./Components/NavBar/NavBar";
 import Hero from "./Components/Hero/Hero";
+import About from "./Components/About";
+import Shops from "./Components/Shops";
+import Profile from "./Components/Profile";
 
 const App = () => {
   let heroData = [
@@ -24,13 +25,8 @@ const App = () => {
   }, []);
 
   return (
-    <BrowserRouter>
+    <div>
       <NavBar />
-      <Routes>
-        <Route path="/" element={<Navigate to="/home" />} />
-        <Route path="/main" element={<Main />} />
-        <Route path="/profile" element={<Profile />} />
-      </Routes>
       <div>
         <Background playStatus={playStatus} heroCount={heroCount} />
 
@@ -42,7 +38,14 @@ const App = () => {
           playStatus={playStatus}
         />
       </div>
-    </BrowserRouter>
+      <About />
+      <div id="shops">
+        <Shops />
+      </div>
+      <div id="profile">
+        <Profile />
+      </div>
+    </div>
   );
 };
 
