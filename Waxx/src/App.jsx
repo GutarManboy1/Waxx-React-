@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Background from "./Components/Background/Background";
-import NavBar from "./Components/NavBar/NavBar";
-import Hero from "./Components/Hero/Hero";
+import Background from "./Components/Background";
+import NavBar from "./Components/NavBar";
+import Hero from "./Components/Hero";
 import About from "./Components/About";
 import Shops from "./Components/Shops";
 import Profile from "./Components/Profile";
@@ -38,7 +38,9 @@ const App = () => {
           playStatus={playStatus}
         />
       </div>
-      <About />
+      <div id="about">
+        <About />
+      </div>
       <div id="shops">
         <Shops />
       </div>
