@@ -1,5 +1,4 @@
 import React from 'react';
-import '../Components/Main/Main.css'
 import "../Components/NavBar/NavBar";
 
 const Main = () => {
